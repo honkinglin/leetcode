@@ -20,7 +20,7 @@
 from collections import defaultdict
 
 class Solution:
-    def groupAnagrams(self, strs):
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         anagram_map = defaultdict(list)
         
         for word in strs:

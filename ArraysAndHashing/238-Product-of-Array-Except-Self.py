@@ -16,7 +16,7 @@
 # Output: [0,0,9,0,0]
 
 class Solution:
-    def productExceptSelf(self, nums):
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
         ans = [1] * len(nums)
 
         # calc the prefix product

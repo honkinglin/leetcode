@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/top-k-frequent-elements/description/
+# https://www.youtube.com/watch?v=YPTqKIgVk-k
 
 # Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
 
@@ -13,7 +14,7 @@
 from collections import defaultdict
 
 class Solution:
-    def topKFrequent(self, nums, k: int):
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         # Step 1: Create a dictionary (`map`) to store the frequency of each element in the array.
         map = defaultdict(int)
         # Step 2: Create buckets to store elements based on their frequency.

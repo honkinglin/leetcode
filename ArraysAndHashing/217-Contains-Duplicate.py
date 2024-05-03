@@ -16,7 +16,7 @@
 # Output: true
 
 class Solution:
-    def containsDuplicate(self, nums) -> bool:
+    def containsDuplicate(self, nums: List[int]) -> bool:
         # Create a set to store the numbers that have been seen
         seen = set()
 

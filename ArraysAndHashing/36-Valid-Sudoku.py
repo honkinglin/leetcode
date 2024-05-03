@@ -14,7 +14,7 @@
 from collections import defaultdict
 
 class Solution:
-    def isValidSudoku(self, board) -> bool:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
         rows = defaultdict(set) # row map
         cols = defaultdict(set) # col map
         squares = defaultdict(set) # key = (i // 3, j // 3) # square map
